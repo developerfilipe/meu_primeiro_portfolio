@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+
+    <!-- tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+   <!-- Fonte awesome CDN -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+
 </head>
 <!-- 
 bg-slate-950 -- muda a cor do background
@@ -56,9 +62,9 @@ text-white -- muda a cor da fonte
     <!-- 
             *min-h-20 - tamanho do eixo y minimo de 20
         -->
-    <main class="  min-h-20 mx-auto max-w-screen-lg px-3 gap-y-6 py-6 items-center ">
+    <main class="  min-h-20 mx-auto max-w-screen-lg px-3 gap-y-6 py-8 items-center ">
         <!-- Hero -->
-        <section class=" flex gap-x-3v ">
+        <section class=" flex gap-x-3">
 
             <!-- 
                 *w-2/3 oculpa dois terços do tamonho do elemento pai
@@ -84,9 +90,15 @@ text-white -- muda a cor da fonte
                 </p>
                 <!-- links de resdes socias  -->
                 <ul class="flex gap-x-3 mt-3">
-                    <li><a href="">L</a></li>
-                    <li><a href="">W</a></li>
-                    <li><a href="">G</a></li>
+                    <li><a href="https://github.com/developerfilipe" target="_blank">
+                        <img class="h-8 hover:animate-bounce" src="./assets/github.png" alt="Github Logo">
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/filipe-souza-santos25/" target="_blank">
+                        <img class="h-8 hover:animate-bounce" src="./assets/linkedin.png" alt="Linkedin Logo">
+                    </a></li>
+                    <li><a href="" target="_blank">
+                        <img class="h-8 hover:animate-bounce" src="./assets/whatsapp.png" alt="Whatsapp Logo">
+                    </a></li>
                 </ul>
             </div>
 
@@ -105,53 +117,87 @@ text-white -- muda a cor da fonte
         <!-- 
         *space-y-3 espaçamento de 3
          -->
-        <section class="space-y-3 py-6">
+
+        <section class="space-y-3 mt-6 py-6">
             <!-- Divisão do texto -->
-            <h2 class="font-bold text-2xl">
+            <h2 class="font-bold mb-12 text-2xl">
                 Meus Projetos
             </h2>
-
-            <div class="flex p-8 bg-slate-800 rounded-lg p-3 items-center">
-
+            <div class="flex p-8 m-6 bg-slate-800 rounded-lg p-3 items-center">
                 <div class=" flex w-1/5 ">
                     imagem
                 </div>
                 <div class="w-4/5 space-y-3">
                     <div class=" flex gap-3  justify-between">
-
                         <h3 class="font-semibold text-xl">
                             <!-- 
                             *italic - deixa a fonte em italico
                             *opacity-50 opacidade me 50%
                              -->
-                          ✅  Projeto 1 <span class="text-xs text-gray-400 italic opacity-50">(Finalizado em 2024)</span>
+                            ✅ Projeto 1 <span class="text-xs text-gray-400 italic opacity-50">(Finalizado em
+                                2024)</span>
                         </h3>
-
-
                         <ul class=" flex gap-x-3 items-center">
-                            <li class=" px-3 py-0.5  rounded-md font-semibold text-xs text-fuchsia-900 bg-fuchsia-400">PHP</li>
-                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-lime-900 bg-lime-400">Tailwind</li>
-                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-rose-900 bg-rose-400">HTML</li>
+                            <li class=" px-3 py-0.5  rounded-md font-semibold text-xs text-fuchsia-900 bg-fuchsia-400">
+                                PHP</li>
+                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-lime-900 bg-lime-400">
+                                Tailwind</li>
+                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-rose-900 bg-rose-400">HTML
+                            </li>
                         </ul>
-
                     </div>
                     <div>
                         <p class=" leading-6">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatem itaque nulla odio nobis quasi, debitis tempore ipsum, aliquid blanditiis expedita eius suscipit libero quisquam architecto voluptate, officia officiis fugiat.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatem itaque nulla odio
+                            nobis quasi, debitis tempore ipsum, aliquid blanditiis expedita eius suscipit libero
+                            quisquam architecto voluptate, officia officiis fugiat.
                         </p>
                     </div>
                 </div>
-
-
             </div>
-
-
+            <div class="flex p-8 m-6 bg-slate-800 rounded-lg p-3 items-center">
+                <div class=" flex w-1/5 ">
+                    imagem
+                </div>
+                <div class="w-4/5 space-y-3">
+                    <div class=" flex gap-3  justify-between">
+                        <h3 class="font-semibold text-xl">
+                            <!-- 
+                            *italic - deixa a fonte em italico
+                            *opacity-50 opacidade me 50%
+                             -->
+                            ✅ Projeto 1 <span class="text-xs text-gray-400 italic opacity-50">(Finalizado em
+                                2024)</span>
+                        </h3>
+                        <ul class=" flex gap-x-3 items-center">
+                            <li class=" px-3 py-0.5  rounded-md font-semibold text-xs text-fuchsia-900 bg-fuchsia-400">
+                                PHP</li>
+                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-lime-900 bg-lime-400">
+                                Tailwind</li>
+                            <li class=" px-2 py-0.5  rounded-md font-semibold text-xs text-rose-900 bg-rose-400">HTML
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class=" leading-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptatem itaque nulla odio
+                            nobis quasi, debitis tempore ipsum, aliquid blanditiis expedita eius suscipit libero
+                            quisquam architecto voluptate, officia officiis fugiat.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="  mt-3 mx-auto max-w-screen-lg px-3 py-6 flex items-center bg-yellow-500 py-6">
-
+    <footer class="  mt-3 mx-auto max-w-screen-lg px-3 py-6 items-center py-6">
+        <!-- 
+            *border-t - adiona borda top de 1px
+            *border-gray-600 seleciona cor da borda
+         -->
+        <div class="border-t border-gray-600 pt-6 px-3 text-gray-500">
+            <p>&copy; 2024. Construido 🤍 por mim mesmo :) .</p>
+        </div>
     </footer>
 </body>
 
