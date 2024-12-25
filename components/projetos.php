@@ -153,7 +153,7 @@
         </div>
 
         <!-- conteudo -->
-        <div class="w-full md:w-4/5 space-y-3 mx-auto">
+        <div class="w-full md:w-4/5 space-y-3 mx-auto" >
             <div class="flex flex-col md:flex-row gap-3 justify-between">
                 <h3 class="font-semibold text-lg md:text-xl">
                     <!-- 
