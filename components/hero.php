@@ -21,7 +21,7 @@
           * mt-6: Espaço superior de 6 unidades (aproximadamente 1.5rem)
       -->
             <p class="text-xl leading-6 mt-6">
-                Desenvolvedor web e mobile com experiência em criar soluções
+                Desenvolvedor full-stack com experiência em criar soluções
                 tecnológicas eficientes e de alto impacto.
                 Ao longo da minha carreira, tenho me especializado em desenvolver
                 aplicações que combinam desempenho, usabilidade e escalabilidade.

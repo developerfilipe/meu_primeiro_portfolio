@@ -13,8 +13,8 @@
      -->
         <ul class="flex gap-x-3 font-medium text-gray-200">
             <li class="hover:underline"><a href="#" rel="noopener noreferrer">Projetos</a></li>
-            <li class="hover:underline"><a href="#" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li class="hover:underline"><a href="#" target="_blank" rel="noopener noreferrer">Linkedim</a></li>
+            <li class="hover:underline"><a href="https://github.com/developerfilipe" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li class="hover:underline"><a href="https://www.linkedin.com/in/filipe-souza-santos25/" target="_blank" rel="noopener noreferrer">Linkedim</a></li>
         </ul>
     </div>
 
